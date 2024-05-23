@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+	float peso_prato;
+	float preco_por_quilo = 45.0;
+	
+	
+	
+	printf("Digite o peso do prato: ");
+	scanf("%f", &peso_prato);
+	
+	
+	float valor = peso_prato * preco_por_quilo;	
+	
+	
+	
+	printf("O valor a pagar e: R$%.2f\n",valor);
+	
+	return 0;   	
+	 
+} 

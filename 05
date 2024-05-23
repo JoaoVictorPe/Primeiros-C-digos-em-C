@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+	
+     float numero1,numero2,diff;
+	 
+	 
+	 printf("Digite o primeiro valor: ");
+	 scanf("%f",&numero1);
+	 
+	 printf("Digite o segundo valor: ");
+	 scanf("%f",&numero2);
+	 
+	 
+	 diff = numero1 - numero2;
+	 
+	 if(numero2==0){
+	 	
+	 	printf("ERRO! Não é possivel dividir por zero. \n");
+	 	}
+	else {
+	    diff = numero1/numero2;	
+	    printf("O ressutado da divisao e: %.2f\n", diff);
+		  
+	} 	
+	 
+	 return 0;	
+	 
+} 
